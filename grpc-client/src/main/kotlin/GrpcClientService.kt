@@ -1,9 +1,9 @@
 package grpcclient.example
 
 
+import helloworld.HelloRequest
+import helloworld.SimpleGrpc
 import net.devh.boot.grpc.client.inject.GrpcClient
-import org.chb.examples.lib.HelloRequest
-import org.chb.examples.lib.SimpleGrpc
 import org.springframework.stereotype.Service
 
 @Service
