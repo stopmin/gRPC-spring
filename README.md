@@ -37,7 +37,7 @@ dependencies {
 - 예를 들어, 코루틴을 사용하면 서버로부터 메시지 스트림을 받는 동안 다른 작업을 수행하거나, 스트림 처리가 완료될 때까지 기다림 없이 즉시 다음 코드로 넘어갈 수 있다.
 - 이는 I/O 바운드 작업, 특히 네트워크를 통한 데이터 통신에서 코드의 비동기 실행을 용이하게 하며, 서버 스트리밍을 통한 효율적인 데이터 처리에 큰 장점을 제공한다.
 
-이번 프로젝트의 경우 위치를 연결이 수립되면 [stream data](https://stopmin.tistory.com/entry/%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D-%EB%8D%B0%EC%9D%B4%ED%84%B0Data-Stream)으로 받아서 처리해야하기 때문에 서버스트리밍 방식을 사용하였으며, kotlin에서는 앞서말한 coroutine이라는 것이 존재하여 이를 편하게 다룰 수 있다.
+이번 프로젝트의 경우 위치를 연결이 수립되면 [data stream](https://stopmin.tistory.com/entry/%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D-%EB%8D%B0%EC%9D%B4%ED%84%B0Data-Stream)으로 받아서 처리해야하기 때문에 서버스트리밍 방식을 사용하였으며, kotlin에서는 앞서말한 coroutine이라는 것이 존재하여 이를 편하게 다룰 수 있다.
 
 **코루틴에 대한 자세한 설명은 [지민의 tistory 게시물](https://stopmin.tistory.com/)를 참고하면 더 나을수도!!**
 
