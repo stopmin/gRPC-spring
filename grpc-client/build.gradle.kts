@@ -36,10 +36,11 @@ dependencies {
     implementation("io.grpc:grpc-protobuf:$grpcProtoVersion")
     implementation("com.google.protobuf:protobuf-kotlin:$grpcVersion")
 
+    // grpc stream coroutine
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0")
+
     // grpc-spring-boot-starter
     implementation("net.devh:grpc-spring-boot-starter:3.0.0.RELEASE")
-
-
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
