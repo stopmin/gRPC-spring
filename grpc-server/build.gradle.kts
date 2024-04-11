@@ -30,15 +30,25 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
 
-
     // grpc
     implementation("io.grpc:grpc-kotlin-stub:$grpcKotlinVersion")
     implementation("io.grpc:grpc-protobuf:$grpcProtoVersion")
     implementation("com.google.protobuf:protobuf-kotlin:$grpcVersion")
 
+    // grpc stream corotuines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0") // Use the latest version
+
     // grpc-spring-boot-starter
     implementation("net.devh:grpc-spring-boot-starter:3.0.0.RELEASE")
 
+    // reactive-streams
+    implementation("org.reactivestreams:reactive-streams:1.0.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor:1.6.0")
+
+
+    //kinesis
+//    implementation("org.springframework.cloud:spring-cloud-stream-binder-kinesis:2.2.0")
+//    implementation("org.springframework.cloud:spring-cloud-starter-stream-kinesis:2.2.0")
 
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
