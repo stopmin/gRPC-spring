@@ -1,5 +1,7 @@
 grpc:
   server:
-    port: 9090
-server:
-  port: 8080
+    port: 8090
+  client:
+    test:
+      address: 'static://localhost:8980'
+      negotiationType: PLAINTEXT
