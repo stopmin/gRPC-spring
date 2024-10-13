@@ -1,6 +1,6 @@
 # gRPC SpringBoot Test
-> 해당 레포는 gRPC를 Spring 프레임워크 상에서 활용해보기 위해서 테스트 목적으로 작성한 레포이니,
->  application.yml은 본인의 fit에 맞추어 테스트해보시고 참고만 하시길
+> 해당 레포는 gRPC를 Spring 프레임워크 상에서 활용해보기 위해서 테스트 목적으로 작성한 저장소입니다.
+>  application.yml은 본인의 실행환경에 맞추어 테스트해보세요.
 
 [gRPC-echosystem 라이브러리](https://github.com/grpc-ecosystem/grpc-spring)를 활용한 테스트입니다.
 더 자세한 예제는 아래 레포의 document를 참고하세요.
