@@ -44,4 +44,3 @@ dependencies {
 ### 👀 어느 목적인가?
 - 이번 테스트의 목적은 Kinesis Stream 데이터를 수신하기 위한 기반을 다지기 위한 학습이었다.
 - 이후 Stream 데이터를 수집될 때마다 비동기적으로 처리하며 수집된 데이터를 gRPC 연결이 수립된 client로 전송하는 코드를 작성하였다.
-- 이에 관련된 코드도 [지민의 tistory 게시물](https://stopmin.tistory.com/)에서 간단하게 확인할 수 있다.
